@@ -1,21 +1,29 @@
 # IITB-Internet
-Connection Script for internet.iitb.ac.in
+Internet Connection Script(s) for internet.iitb.ac.in
 
 # Usage
 ```
-cd IIT-Internet
+cd IIT-Internet/Unix
 chmod +x connect_internet
 ./connect_internet
 ```
 
 # Files
-* `iitb-internet-access.c`
-This file is C file.
-Required libraries: curl, ncurses
-Compilation: `gcc iitb-internet-access.c -o connect_internet -lncurses -lcurl`
+<pre>
+.
+|-- Unix
+|   |-- connect_internet
+|   |-- iitb-internet-access.c
+|   `-- startup_internet.sh
+|-- Windows
+|-- guipic.png
+`-- README.md
+</pre>
 
-* `connect_internet`
-This is the Linux Executable file.
+# Dependencies
+Required libraries: `curl`, `ncurses`
+
+Compilation: `gcc iitb-internet-access.c -o connect_internet -lncurses -lcurl`
 
 # GUI
 ![GUI Preview][guipic]
