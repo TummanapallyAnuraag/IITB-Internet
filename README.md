@@ -1,7 +1,16 @@
 # IITB-Internet
 Internet Connection Script(s) for internet.iitb.ac.in
 
+## List of Other Repositories to solve the same Problem:
+* [Python Script for terminal login/logout to internet.iitb.ac.in](https://github.com/sumeetfefar/iitb-internet-login)
+* [This extension will automatically login into internet.iitb.ac.in page whenever chrome is opened.](https://github.com/nihal111/IITB-login-extension-Chrome)
+* [App Indicator to login into internet.iitb.ac.in for Linux Systems ](https://github.com/anshulgupta0803/iitb-internet-login)
+* [Log on to internet.iitb.ac.in with one click ](https://github.com/akshitt/auto-login)
+* [A Simple App that will automatically log in to internet.iitb.ac.in ... ](https://github.com/saqib1707/fastStartup)
+
 # Usage
+
+## Windows
 
 ## Linux
 * C Executable
@@ -20,9 +29,6 @@ chmod 711 startup_internet.sh
 ```
 
 Once this works, add the script to System Startup Applications.
-
-## Windows
-
 
 # Files
 <pre>
