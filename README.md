@@ -11,12 +11,14 @@ chmod +x connect_internet
 ./connect_internet
 ```
 * Unix Shell Script
+
 Paste Base64 encoded password, and username in `startup_internet.sh`
 ```
 cd IITB-Internet/Unix
 chmod 711 startup_internet.sh
 ./startup_internet.sh
 ```
+
 Once this works, add the script to System Startup Applications.
 
 ## Windows
