@@ -58,7 +58,7 @@ Compilation: `gcc iitb-internet-access.c -o connect_internet -lncurses -lcurl`
 
 # GUI
 
-* For C Biinary (`./connect_internet`)
+* For C Binary (`./connect_internet`)
 
 ![GUI Preview][guipic1]
 
