@@ -30,13 +30,22 @@ chmod 711 startup_internet.sh
 
 Once this works, add the script to System Startup Applications.
 
+* Shell Script
+```
+ITB-Internet/Unix
+chmod +x shell_script.sh
+./shell_script.sh
+```
+
 # Files
 <pre>
 .
 |-- Unix
 |   |-- connect_internet
 |   |-- iitb-internet-access.c
-|   `-- startup_internet.sh
+|   |-- shell_script.sh
+|   `-- startup_script.sh
+
 |-- Windows
 |-- guipic.png
 `-- README.md
@@ -48,6 +57,14 @@ Required libraries: `curl`, `ncurses`
 Compilation: `gcc iitb-internet-access.c -o connect_internet -lncurses -lcurl`
 
 # GUI
-![GUI Preview][guipic]
 
-[guipic]:guipic.png "Terminal Screenshot!"
+* For C Biinary (`./connect_internet`)
+
+![GUI Preview][guipic1]
+
+* For Shell Script (`./shell_script.sh`)
+
+![GUI Preview][guipic2]
+
+[guipic1]:guipic.png "Terminal Screenshot!"
+[guipic2]:guipic2.png "Terminal Screenshot!"
